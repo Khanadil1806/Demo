@@ -1,0 +1,35 @@
+
+
+134  git log
+  135  git log -1
+  136  git log --oneline
+  137  git log --grep="initial"
+  138  git log --grep="Initial"
+  139  git log -i --grep="Initial"
+  140  git log --author=adil
+  141  git log --G"hello"
+  142  git log -G"hello"
+  143  git log -i -G"hello"
+  144  cat > test2.txt
+  145  ls
+  146  git stash save "added khan"
+  147  git stash list
+  148  git status
+  149  git add -A
+  150  git status
+  151  git stash save "added khan"
+  152  git stash list
+  153  git stash apply stash@{0}
+  154  git stash list
+  155  git stash drop stash@{0}
+  156  git stash list
+  157  git status
+  158  git stash save "add hello"
+  159  git stash list
+  160  git stash clean
+  161  git stash clear
+  162  git stash list
+  163  git status
+  164  touch test2.txt
+  165  git add -A
+  166  git stash -p
