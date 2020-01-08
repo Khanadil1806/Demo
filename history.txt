@@ -13,15 +13,15 @@
   144  cat > test2.txt
   145  ls
   146  git stash save "added khan"
-  147  git stash list
+  147  git stash list   //list of temporary save file
   148  git status
   149  git add -A
   150  git status
-  151  git stash save "added khan"
+  151  git stash save "added khan"  /to add file to temporary then after it will remove   from repo
   152  git stash list
-  153  git stash apply stash@{0}
-  154  git stash list
-  155  git stash drop stash@{0}
+  153  git stash apply stash@{0}    //to get back our temporary file in repo
+  154  git stash list     after moving temp file in repo it will here only
+  155  git stash drop stash@{0}->code id   //to remove from here do this
   156  git stash list
   157  git status
   158  git stash save "add hello"
